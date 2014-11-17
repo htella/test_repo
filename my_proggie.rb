@@ -3,4 +3,4 @@ def random_number(times)
 	return rand_num * times
 end
 
-puts random_number(7)
+puts random_number(rand(10))
