@@ -7,4 +7,10 @@ def bar()
 	"I'm not being used"
 end
 
+def foo()
+	return "foo"
+end
+
 puts random_number(rand(10))
+
+puts foo()
